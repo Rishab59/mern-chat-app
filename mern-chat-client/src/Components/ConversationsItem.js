@@ -1,5 +1,3 @@
-import "./ComponentsStyles.css" ;
-
 import React from "react" ;
 
 
