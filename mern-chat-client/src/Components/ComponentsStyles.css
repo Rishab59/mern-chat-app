@@ -17,6 +17,8 @@
     background-color: aliceblue ;
     display: flex ;
     flex-direction: column ;
+    border-radius: 20px ;
+    background-color: transparent ;
 }
 
 .sb-header{
@@ -26,6 +28,7 @@
     padding: 10px 5px ;
     display: flex ;
     justify-content: space-between ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
 }
 
 .sb-search{
@@ -35,6 +38,7 @@
     padding: 5px 10px ;
     display: flex ;
     align-items: center ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
 }
 
 .search-box{
@@ -54,6 +58,7 @@
     flex: 1 ;
     overflow: scroll ;
     scrollbar-width: none ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
 }
 
 .sb-conversations::-webkit-scrollbar{
@@ -116,6 +121,7 @@
     margin: 10px ;
     padding: 10px ;
     border-radius: 20px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
 }
 
 .header-text{
@@ -133,6 +139,7 @@
     border-radius: 20px ;
     overflow: scroll ;
     scrollbar-width: none ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
 }
 
 .message-container::-webkit-scrollbar{
@@ -146,6 +153,7 @@
     border-radius: 20px ;
     display: flex ;
     justify-content: space-between ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
 }
 
 .other-text-content{
@@ -218,6 +226,7 @@
     background-color: #f4f5f8 ;
     border-radius: 20px ;
     display: flex ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px ;
 }
 
 .login-image-container{
@@ -245,4 +254,57 @@
 .login-text{
     font-size: 2rem ;
     margin-bottom: 10px ;
+}
+
+.list-container{
+    flex: 0.7 ;
+    display: flex ;
+    flex-direction: column ;
+}
+
+.ug-header{
+    background-color: white ;
+    border-radius: 20px ;
+    margin: 10px ;
+    padding: 10px 20px ;
+    display: flex ;
+    align-items: center ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
+}
+
+.ug-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold ;
+    color: rgba(0, 0, 0, 0.54) ;
+    margin-left: 15px ;
+}
+
+.ug-list{
+    flex: 1 ;
+    overflow: scroll ;
+    scrollbar-width: none ;
+    padding: 10px ;
+}
+
+.ug-list::-webkit-scrollbar{
+    display: none ;
+}
+
+.list-tem{
+    display: flex ;
+    align-items: center ;
+    background-color: white ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
+    border-radius: 20px ;
+    padding: 10px 5px ;
+    margin: 10px ;
+    transition-duration: 0.2s ;
+}
+
+.list-tem:hover{
+    background-color: #E5E7EB ;
+}
+
+.list-tem:active{
+    background-color: white ;
 }
